@@ -1,0 +1,53 @@
+body {
+  background: rgb(2,0,33);
+  background: linear-gradient(90deg, rgba(2,0,33,1) 0%, rgba(49,27,27,1) 59%, rgba(0,19,45,1) 100%);
+    font-family: 'Poppins', sans-serif;
+  }
+
+  header {
+    background: rgb(44, 42, 76);
+    background: linear-gradient(10deg, rgba(2,0,33,1) 0%, rgba(49,27,27,1) 59%, rgba(0,19,45,1) 100%);
+  }
+
+
+.card{
+  flex-direction: column;
+  display: inline-flex;
+  width: 42%;
+  height: auto;
+  margin: auto;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 600px) {
+    .card {
+      flex:auto;
+
+    }
+  }
